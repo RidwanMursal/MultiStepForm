@@ -1,0 +1,25 @@
+/* * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} */
+
+#banner {
+  background-image: url("./assets/images/bg-sidebar-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* height: calc(100vh - 2rem); */
+}
+
+@media (max-width: 754px) {
+  #banner {
+    height: auto;
+    height: 175px;
+    background-image: url("./assets/images/bg-sidebar-mobile.svg");
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
